@@ -1,6 +1,6 @@
 @font-face{
     font-family: Gatsby;
-    src: url('../fonts/gatsby/GatsbyFLF.ttf');
+    src: url('/fonts/gatsby/GatsbyFLF.ttf');
 }
 
 body {
