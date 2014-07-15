@@ -6,8 +6,8 @@ var r = function getRandomInt(min, max) {
 
 
 function AppViewModel() {
-    this.firstName = "Chris";
-    this.lastName = "Dieckhaus";
+    this.firstName = ko.observable("Chris");
+    this.lastName = ko.observable("Dieckhaus");
     this.randomNumber = r(0,10);
 }
 
