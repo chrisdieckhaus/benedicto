@@ -3,15 +3,24 @@
 <head>
     <title>Benedicto: a prayer for you</title>
     <link href="stylesheets/page.css" media="screen, projection" rel="stylesheet" type="text/css">
-    <script src="js/scripts.js"></script>
+    
 
 </head>
     
 <body>
     <h1>Benedicto</h1>
     
-    <p>Today's date: </p>
-</body>
+<button type="button" onclick="myFunction()">Click Me!</button>
+
+<p id="demo">This is a demonstration.</p>
+
+<script>
+function myFunction() {
+    var number;
+    number = Math.floor(Math.random() * (10 - 0 + 1)) + 0;
+    document.getElementById("demo").innerHTML = number;
+}
+</script>
 
 </html>
 
