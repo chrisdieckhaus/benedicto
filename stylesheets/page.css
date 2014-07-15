@@ -1,6 +1,36 @@
 @font-face{
-    font-family: Gatsby;
-    src: url(AvQest.ttf);
+    font-family: Gatsby-thin;
+    src: url('../fonts/gatsby/GatsbyFLF.ttf');
+}
+
+@font-face{
+    font-family: Gatsby-bold;
+    src: url('../fonts/gatsby/GatsbyFLF-Bold.ttf');
+}
+
+@font-face{
+    font-family: AvQest;
+    src: url('../fonts/AvQest.ttf');
+}
+
+@font-face{
+    font-family: AlexBrush;
+    src: url('../fonts/alex_brush/AlexBrush-Regular.ttf');
+}
+
+@font-face{
+    font-family: Coneria;
+    src: url('../fonts/coneria_script/Demo_ConeriaScript.ttf');
+}
+
+@font-face{
+    font-family: Valerius;
+    src: url('../fonts/valerius/valerius.ttf');
+}
+
+@font-face{
+    font-family: LordF;
+    src: url('../fonts/LittleLordFontleroyNF.ttf');
 }
 
 body {
@@ -8,5 +38,6 @@ body {
 }
 
 p{
-    font-family: Gatsby;
+    font-size: 20px;
+    font-family: LordF;
 }
