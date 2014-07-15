@@ -12,13 +12,27 @@
 <body>
     <h1></h1>
 
-    <p>Random Number: <span data-bind="text: randomNumber"></span></p>
+    <p><span data-bind="text: randomNumber"></span></p>
     
-<div class="big-text">
-    <p class="big-text">
-        Text text text
-    </p>
-</div>
+    <div class="button-div">
+        <button data-bind="click: getRandomNumber">Generate random number</button>
+    </div>
+
+    <p><span data-bind="text: prayers"></span></p>
+    
+    <div class="big-text">
+        <p class="big-text">
+            Texty text.
+        </p>
+    </div>
+
+<ul class="big-text">
+    <li>
+        <a href="https://github.com/Pistos/catholic-reference-extension/tree/master/texts/drb">
+            Bible split into nicely parsed text files.
+        </a>
+    </li>
+</ul>
 </html>
 
 
