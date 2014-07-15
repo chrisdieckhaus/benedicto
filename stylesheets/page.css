@@ -33,11 +33,22 @@
     src: url('../fonts/LittleLordFontleroyNF.ttf');
 }
 
+@font-face{
+    font-family: Wizard;
+    src: url('../fonts/wizard_of_the_moon/WizardOfTheMoon.ttf');
+}
+
+@font-face{
+    font-family: Underground;
+    src: url('../fonts/europe_underground/EuropeUnderground_light.ttf');
+}
+
 body {
     
 }
 
-p{
-    font-size: 20px;
-    font-family: LordF;
+h1{
+    text-align: center;
+    font-size: 40px;
+    font-family: Valerius;
 }
