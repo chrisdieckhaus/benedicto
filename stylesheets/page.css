@@ -22,6 +22,29 @@ div.button-div{
     text-align: center;
 }
 
+div.outer{
+    border: solid #333333 1.5pt;
+    border-radius: 4px;
+    display: block;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.outer-hover{
+    background: #EBEBEB;
+}
+
+div.inner{
+    font-family: Typo3;
+    font-size: 20px;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    padding: 10px;
+    width: 300px;
+}
+
 div.text{
     width: 40%;
     margin-left: auto;
