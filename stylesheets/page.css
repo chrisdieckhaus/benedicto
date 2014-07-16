@@ -1,105 +1,36 @@
 @font-face{
-    font-family: Gatsby-thin;
-    src: url('../fonts/gatsby/GatsbyFLF.ttf');
-}
-
-@font-face{
-    font-family: Gatsby-bold;
-    src: url('../fonts/gatsby/GatsbyFLF-Bold.ttf');
-}
-
-@font-face{
-    font-family: AvQest;
-    src: url('../fonts/AvQest.ttf');
-}
-
-@font-face{
-    font-family: AlexBrush;
-    src: url('../fonts/alex_brush/AlexBrush-Regular.ttf');
-}
-
-@font-face{
-    font-family: Coneria;
-    src: url('../fonts/coneria_script/Demo_ConeriaScript.ttf');
-}
-
-@font-face{
-    font-family: Valerius;
-    src: url('../fonts/valerius/valerius.ttf');
-}
-
-@font-face{
-    font-family: LordF;
-    src: url('../fonts/LittleLordFontleroyNF.ttf');
-}
-
-@font-face{
-    font-family: Wizard;
-    src: url('../fonts/wizard_of_the_moon/WizardOfTheMoon.ttf');
-}
-
-@font-face{
-    font-family: Underground;
-    src: url('../fonts/europe_underground/EuropeUnderground_black.ttf');
-}
-
-@font-face{
-    font-family: Centabel;
-    src: url('../fonts/centabel/centabel.ttf');
-}
-
-@font-face{
-    font-family: StMarie;
-    src: url('../fonts/st_marie/StMarie-Thin.otf');
-}
-
-@font-face{
     font-family: Typo3;
     src: url('../fonts/typo3/Typo3-Medium.ttf');
 }
 
+@font-face{
+    font-family: Renzo;
+    src: url('../fonts/renzo.otf');
+}
+
 body {
-    
+    margin: 0;
 }
 
 h1{
     text-align: center;
-    font-size: 40px;
+    font-size: 34px;
     font-family: Typo3;
 }
 
-p{
-    font-size: 24px;
-    font-family: Typo3;
+div.button-div{
     text-align: center;
 }
 
-.big-text{
-    width: 30%;
-    margin-right: auto;
+div.text{
+    width: 40%;
     margin-left: auto;
-
-    
+    margin-right: auto;
 }
-p.big-text{
-    font-size: 16px;
-    font-family: Typo3;
-    width: 95%;
-    line-height: 200%;
-   
+
+p.text{
+    font-size: 24px;
+    font-family: Renzo;
     text-align: justify;
-}
-
-.button-div{
-    margin-left: auto;
-    margin-right: auto;
-    width: 25%;
-    border: solid black 1pt;
-}
-
-button{
-    display: block;
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
+    
 }
