@@ -1,3 +1,4 @@
+
 $(document).ready(function(){
     $("#button-div").on('mouseenter',function(){
       $(this).addClass("outer-hover");
@@ -12,4 +13,6 @@ $(document).ready(function(){
         console.log("Click");
         $("#prayer").slideToggle();
     });
+    
+    
     });
