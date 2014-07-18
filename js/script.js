@@ -1,5 +1,8 @@
 
 $(document).ready(function(){
+  
+    changeText();
+    
     $("#button-div").on('mouseenter',function(){
       $(this).addClass("outer-hover");
     });
@@ -23,10 +26,10 @@ var newPrayer = "Saint joseph's edgemont bola full frame butterfly house mountai
 
 var prayerList = [
     {
-        "text": "Prayer to St. Jude patron of hopeless causes\nSt. Jude, glorious apostle, faithful servant and friend of Jesus, the name of the traitor has caused you to be forgotten by many, but the true Church invokes you universally as the patron of things despaired of; pray for me, who am so downcast; pray for me, that finally I may receive the consolations and help of heaven in all my necessities, tribulations and sufferings, particularly (make your request here), and that I may bless God with the elect throughout eternity. Amen. \nSt. Jude Apostle, martyr and relative of our Lord Jesus Christ, of Mary, and of Joseph, intercede for us. Amen.\n"
+        "text": "Prayer to St. Jude, patron of hopeless causes \n St. Jude, glorious apostle, faithful servant and friend of Jesus, \n the name of the traitor has caused you to be forgotten by many, \n but the true Church invokes you universally as the patron of things despaired of; \n pray for me, who am so downcast; \n pray for me, that finally I may receive the consolations and help of heaven in all my necessities, tribulations and sufferings, \n and that I may bless God with the elect throughout eternity. \n St. Jude Apostle, \n martyr and relative of our Lord Jesus Christ, \n of Mary, and of Joseph, \n intercede for us. \n Amen."
     },
     {
-        "text": "Prayer for Serenity by Reinhold Niebuhr\nGod, grant me the serenity\nTo accept the things I cannot change,\nCourage to change the things I can,\nAnd wisdom to know the difference.\nLiving one day at a time,\nEnjoying one moment at a time,\nAccepting hardship as a way to peace,\nTaking, as Jesus did,\nThis sinful world as it is,\nNot as I would have it,\nTrusting that You will make all things right,\nIf I surrender to Your will,\nSo that I may be reasonably happy in this life,\nAnd supremely happy with You forever in the next.\nAmen.\n"
+        "text": "Prayer for Serenity\nby Reinhold Niebuhr\nGod, grant me the serenity\nto accept the things I cannot change,\ncourage to change the things I can,\nAnd wisdom to know the difference.\nLiving one day at a time,\nEnjoying one moment at a time,\nAccepting hardship as a way to peace,\nTaking, as Jesus did,\nThis sinful world as it is,\nNot as I would have it,\nTrusting that You will make all things right,\nIf I surrender to Your will,\nSo that I may be reasonably happy in this life,\nAnd supremely happy with You forever in the next.\nAmen.\n"
     },
     {
         "text": "Act of Love\nO my God, I love you above all things, with my whole heart and soul, because you are all-good and worthy of all my love. I love my neighbor as myself for the love of you. I forgive all who have injured me and ask pardon of all who I have injured.\nAct of Hope\nO my God, relying on your almighty power, infinite mercy and promises, I hope to obtain pardon for my sins, the help of your grace, and life everlasting through the merits of Jesus Christ, my Lord and Redeemer.\nAct of Faith\nO my God, I firmly believe that you are one God in three divine Persons, Father, Son, and Holy Spirit. I believe that your divine Son became man, died for our sins, and that he will come to judge the living and the dead. I believe these and all the truths which the holy Catholic Church teaches, because you have revealed them, Who can neither deceive nor be deceived.\n"
@@ -206,9 +209,6 @@ var prayerList = [
         "text": "Lovely Lady Dressed in Blue\nLovely Lady dressed in blue\nTeach me how to pray!\nGod was just your little boy,\nTell me what to say!\nDid you lift Him up, sometimes,\nGently on your knee?\nDid you sing to Him the way\nMother does to me?\nDid you hold His hand at night?\nDid you ever try\nTelling stories of the world?\nO! And did He cry?\nDo you really think He cares\nIf I tell Him things-\nLittle things that happen? And\nDo the Angels’ wings\n   Make a noise? And can He hear\nMe if I speak\n real\n low?\nDoes He understand me now?\nTell me- for you know?\nLovely Lady dressed in blue-\nTeach me how to pray!\nGod was just your little boy,\nAnd you know the way.\n"
     },
     {
-        "text": "EXECUTION OF GOD’S WORD\nThe Word of God Says in Psalm 71:1\nIn you O Lord I take refuge, never\nlet me be put to shame.\nThe word of God says in Isaiah 57:14 & 15\nOpen up Open up and clear the way\nre\nm\nove all obstacles from the way of my people\nfor thus speaks the Most High\nwhose home is in Eternity\nWhose name is Holy.\nThe word of God says in Psalm 68:1 & 2\nLet God arise, Let his enemies be scattered\nLet those who hate him flee before him\nAs smoke disperses, they disperse\nAs wax melts when near the fire\nSo the wicked perish when God approaches.\nThe word of God says in Psalm 27:1\nThe Lord is my light and my salvation\nwhom shall I fear\nThe Lord is the stronghold of my life\nof whom shall I be afraid.\nThe word of God says in Amos 5:24\nLet justice surge like water\nand righteousness\nlike an unfailing stream.\nThe word of God says in Daniel 10:19\nDo not be afraid\nYou are a man specially chosen\nThe word of God says in 2 Chronicles 7:14\nThen if my people who bear my name\nHumble themselves and pray\nand seek my presence and turn\nfrom their wicked ways\nI myself will hear from heaven\nand forgive their sins.\nThe word of God says in Joel 2:17\nSpare your people,  Yahweh\nDo not make your heritage a thing of shame\na byword for the nations\nWhy should it be said among the nations\nwhere is their God\nThe word of God says in Matthew 6:33\nSet your hearts on his Kingdom first\nAnd on his righteousness\nAnd all these other things will be\ngiven you as well.\nThe word of God says in Matthew 7:8 & 9\nAsk and it will be given you\nSearch and you will find\nKnock and the door will be opened to you\nFor the one who asks always receives\nThe one who searches always finds\nThe one who knocks always\nhas the door opened to him.\n"
-    },
-    {
         "text": "The Memorare\nRemember, O Most Gracious Virgin Mary,\nthat never was it known that anyone who fled to Thy protection,\nimplored Thy help or sought Thine intercession,\nwas left unaided.\nInspired by this confidence,\nI fly unto Thee, O Virgin of Virgins, my Mother;\nto Thee do I come, before thee I stand, sinful and sorrowful.\nO Mother of the Word Incarnate,\ndespise not my petitions,\nbut in Thy mercy, hear and answer me.\nAmen.\n"
     },
     {
@@ -222,6 +222,11 @@ function getRandomInt(min, max) {
 
 function changeText(){
   var index = getRandomInt(0, prayerList.length);
-  $("#pray").text(prayerList[index]["text"]);
+  var prayer = prayerList[index]["text"].split("\n");
+  for (var i=0; i<prayer.length; i++){
+    $("#pray").append("<p style='margin:5px; line-height: 160%;'>"+prayer[i]+"</p>");
+    }
+  
+  
 };
 
