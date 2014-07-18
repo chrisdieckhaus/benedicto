@@ -29,46 +29,54 @@ var prayerList = [
         "text": "Prayer to St. Jude, patron of hopeless causes \n St. Jude, glorious apostle, faithful servant and friend of Jesus, \n the name of the traitor has caused you to be forgotten by many, \n but the true Church invokes you universally as the patron of things despaired of; \n pray for me, who am so downcast; \n pray for me, that finally I may receive the consolations and help of heaven in all my necessities, tribulations and sufferings, \n and that I may bless God with the elect throughout eternity. \n St. Jude Apostle, \n martyr and relative of our Lord Jesus Christ, \n of Mary, and of Joseph, \n intercede for us. \n Amen."
     },
     {
-        "text": "Prayer for Serenity\nby Reinhold Niebuhr\nGod, grant me the serenity\nto accept the things I cannot change,\ncourage to change the things I can,\nAnd wisdom to know the difference.\nLiving one day at a time,\nEnjoying one moment at a time,\nAccepting hardship as a way to peace,\nTaking, as Jesus did,\nThis sinful world as it is,\nNot as I would have it,\nTrusting that You will make all things right,\nIf I surrender to Your will,\nSo that I may be reasonably happy in this life,\nAnd supremely happy with You forever in the next.\nAmen.\n"
+        "text": "Prayer for Serenity\nby Reinhold Niebuhr\nGod, grant me the serenity\nto accept the things I cannot change,\ncourage to change the things I can,\nAnd wisdom to know the difference.\nLiving one day at a time,\nEnjoying one moment at a time,\nAccepting hardship as a way to peace,\nTaking, as Jesus did,\nThis sinful world as it is,\nNot as I would have it,\nTrusting that You will make all things right,\nIf I surrender to Your will,\nSo that I may be reasonably happy in this life,\nAnd supremely happy with You forever in the next.\nAmen.\n",
+	"author": "Reinhold Niebuhr"
     },
     {
-        "text": "Act of Love\nO my God, I love you above all things, with my whole heart and soul, because you are all-good and worthy of all my love. I love my neighbor as myself for the love of you. I forgive all who have injured me and ask pardon of all who I have injured.\nAct of Hope\nO my God, relying on your almighty power, infinite mercy and promises, I hope to obtain pardon for my sins, the help of your grace, and life everlasting through the merits of Jesus Christ, my Lord and Redeemer.\nAct of Faith\nO my God, I firmly believe that you are one God in three divine Persons, Father, Son, and Holy Spirit. I believe that your divine Son became man, died for our sins, and that he will come to judge the living and the dead. I believe these and all the truths which the holy Catholic Church teaches, because you have revealed them, Who can neither deceive nor be deceived.\n"
+        "text": "Act of Love\nO my God, I love you above all things, with my whole heart and soul, because you are all-good and worthy of all my love. I love my neighbor as myself for the love of you. I forgive all who have injured me and ask pardon of all who I have injured."
     },
     {
-        "text": "Prayer of Abandonment \nby. Ven. Charles de Foucauld\nFather, I abandon myself into Your hands;\nDo with me what You will.\nWhatever You may do\nI thank you;\nI am ready for all, I accept all.\nLet only Your will be done in me\nAnd in all Your creatures – \nI wish no more than this, O Lord.\nInto Your hands I commend my soul;\nI offer it to You\nWith all the love of my heart,\nFor I love You, Lord,\nAnd so need to give myself,\nTo surrender myself into Your hands,\nWithout reserve,\nAnd with boundless confidence,\nFor You are my Father.\n"
+	"text": "Act of Hope\nO my God, relying on your almighty power, infinite mercy and promises, I hope to obtain pardon for my sins, the help of your grace, and life everlasting through the merits of Jesus Christ, my Lord and Redeemer."
     },
     {
-        "text": "Prayer Not to be Disturbed By St. Teresa of Avila\nLet nothing disturb you.\nLet nothing frighten you.\nAll things pass.\nGod never changes.\nPatience attains all that it strives for.\nHe who has God finds he lacks nothing.\nGod alone suffices.\n"
+	"text": "Act of Faith\nO my God, I firmly believe that you are one God in three divine Persons, Father, Son, and Holy Spirit. I believe that Your divine Son became man, died for our sins, and that He will come to judge the living and the dead. I believe these and all the truths which the holy Catholic Church teaches, because You have revealed them, Who can neither deceive nor be deceived.\n"
     },
     {
-        "text": "Prayer to the Holy Spirit By St. Augustine\nBreathe in me, Holy Spirit,\nThat all my thoughts may be holy.\nMove in me, Holy Spirit,\nThat my work, too, may be holy.\nAttract my heart, Holy Spirit,\nThat I may love only what is holy.\nStrengthen me, Holy Spirit,\nThat I may defend all that is holy.\nProtect me, Holy Spirit,\nThat I always may be holy.\n"
+        "text": "Prayer of Abandonment \nFather, I abandon myself into Your hands;\nDo with me what You will.\nWhatever You may do, I thank you;\nI am ready for all, I accept all.\nLet only Your will be done in me\nAnd in all Your creatures – \nI wish no more than this, O Lord.\nInto Your hands I commend my soul;\nI offer it to You\nWith all the love of my heart,\nFor I love You, Lord,\nAnd so need to give myself,\nTo surrender myself into Your hands,\nWithout reserve,\nAnd with boundless confidence,\nFor You are my Father.\n Amen.",
+	"author": "Charles de Foucauld"
     },
     {
-        "text": "Prayer for Your Family\nLord Jesus, I pray for my family.\nBless those who help me\nAnd bless those who hurt me.\nBless those who are at home\nAnd bless those who are away fro home.\nBless those whom I find easy to love\nAnd bless those who I find\nDifficult/impossible to love.\nLord, bless al the members of my family who have died.\nBless them with eternal rest and peace.\nLord, bless all the members of my family.\n"
+        "text": "Prayer Not to be Disturbed \nLet nothing disturb you.\nLet nothing frighten you.\nAll things pass.\nGod never changes.\nPatience attains all that it strives for.\nHe who has God finds he lacks nothing.\nFor God alone is enough.\n",
+	"author": "St. Teresa of Avila"
     },
     {
-        "text": "Prayer of Thanksgiving\nAlmighty Father,\nYou are lavish in bestowing all your gifts,\nAnd we give thanks for the favors you have given to us.\nIn your goodness you have favored us and kept us safe in the past.\nWe ask that you continue to protect us and to shelter us in the shadow of your wings.\nWe ask this through Christ our Lord. Amen.\n"
+        "text": "Prayer to the Holy Spirit\nBreathe in me, Holy Spirit,\nThat all my thoughts may be holy.\nMove in me, Holy Spirit,\nThat my work, too, may be holy.\nAttract my heart, Holy Spirit,\nThat I may love only what is holy.\nStrengthen me, Holy Spirit,\nThat I may defend all that is holy.\nProtect me, Holy Spirit,\nThat I always may be holy.\n",
+	"author": "St. Augustine"
+    },
+    {
+        "text": "Prayer for Your Family\nLord Jesus, I pray for my family.\nBless those who help me\nAnd bless those who hurt me.\nBless those who are at home\nAnd bless those who are away fro home.\nBless those whom I find easy to love\nAnd bless those who I find\nDifficult to love.\nLord, bless al the members of my family who have died.\nBless them with eternal rest and peace.\nLord, bless all the members of my family.\n"
+    },
+    {
+        "text": "Prayer of Thanksgiving\nAlmighty Father,\nYou are lavish in bestowing all your gifts,\nAnd we give thanks for the favors you have given to us.\nIn your goodness you have favored us and kept us safe in the past.\nWe ask that you continue to protect us and to shelter us in the shadow of your wings.\nWe ask this through Christ our Lord. \nAmen.\n"
     },
     {
         "text": "Prayer in Time of Sorrow\nFather of all mercies and God of consolation, you love us eternally and transform the shadows of death into the dawn of life. Look upon our grief; be our refuge and comfort so that our sadness and sorrow may turn into to the light and peace of your presence. In dying, your Son destroyed death; in rising, he restored life. Grant that at the end of our earthly pilgrimage we may be found in his company with our brothers and sisters. There you shall wipe away every tear. We ask this through Christ our Lord. Amen.\n"
     },
     {
-        "text": "Prayer for When You’re Confused\nLord Jesus, I’m really confused.\nI really don’t know why\nAnd I don’t know what to do\nAnd I can’t help the way I fell.\nSo I’m coming to You.\nLord Jesus, speak a Word\nTo scatter the darkness\nIn my mind and heart.\nBurn away the clouds of uncertainty.\nShed a ray of Your Divine Light\nWith its healing rays to set me straight.\nMy mind, my heart, my body, my soul,\nI give to You… take control.\nJesus, I trust in You.\n"
+        "text": "Prayer for When You're Confused\nLord Jesus, I'm really confused.\nI really don't know why\nAnd I don't know what to do\nAnd I can't help the way I fell.\nSo I'm coming to You.\nLord Jesus, speak a Word to scatter the darkness in my mind and heart.\nBurn away the clouds of uncertainty.\nShed a ray of Your Divine Light with its healing rays to set me straight.\nMy mind, my heart, my body, my soul,\nI give to You; take control.\nJesus, I trust in You.\n Amen."
     },
     {
-        "text": "Prayer of St. Thérèse of Lisieux from The Story of A Soul\nOpen the Book of life, Lord Jesus,\nSee all the deeds recorded by the saints!\nAll these I want to perform for You!\nWhat can You say in the face of\nAll this foolishness of mine,\nFor surely I am the weakest soul on earth?\nYet just because I am so weak\nYou have been pleased to grant\nMy childish little desires,\nAnd now You will grant the rest,\nOther desires far greater than the Universe.\n"
+        "text": "Prayer of St. Therese of Lisieux\nOpen the Book of life, Lord Jesus,\nSee all the deeds recorded by the saints!\nAll these I want to perform for You!\nWhat can You say in the face of all this foolishness of mine,\nFor surely I am the weakest soul on earth?\nYet just because I am so weak, You have been pleased to grant my childish little desires,\nAnd now You will grant the rest, other desires far greater than the Universe.\n"
     },
     {
-        "text": "Prayer Before the Crucifix By St. Francis of Assisi\nMost high,\nGlorious God,\nEnlighten the darkness of my heart\nAnd give me, Lord,\nA correct faith,\nA correct hope,\nA perfect charity,\nSense and knowledge,\nSo that I may carry out Your holy and true command.\n"
+        "text": "Prayer Before the Crucifix\nMost high, Glorious God,\nEnlighten the darkness of my heart\nAnd give me, Lord, a correct faith,\nA correct hope,\nA perfect charity,\nSense and knowledge,\nSo that I may carry out Your holy and true command.\n Amen.",
+	"author": "St. Francis of Assisi"
     },
     {
-        "text": "Prayer to Our Lady in Spanish\nMadre mía amantísima, en todos los instantes de mi vida, acordaos de mí, miserable pecador. Acueducto de las divinas gracias, concededme abundancia de lágrimas para llorar amargamente mis pecados.\nReina de cielos y tierra, sed mi amparo y defensa en las tentaciones de mis enemigos.\nIlustre y querida hija de Joaquín y Ana, alcanzadme de vuestro Divino Hijo las gracias que necesito para mi salvacíon. \nAbogado y refugio de los pecadores, asistidme en mi última agonía y abridme las puertas del Cielo.\n"
+        "text": "Prayer to the Divine Infant Jesus\nOh Divine Infant Jesus,\nOmnipotent God\nWe implore you,\nThrough the powerful Intercession of Your most holy Mother\nIn your boundless mercy and omnipotence\nTo look favorably upon the petition for which we so earnestly pray.\nOh Divine Infant Jesus,\nHear our prayers\nAnd grant our petitions.\n Amen."
     },
     {
-        "text": "Prayer to the Divine Infant Jesus\nOh Divine Infant Jesus,\nOmnipotent God\nWe implore you,\nThrough the powerful\nIntercession of your\nMost holy Mother\nIn your boundless\nMercy and omnipotence\nTo look favorably upon\nThe petition for which we so earnestly pray.\nOh Divine Infant Jesus\nHear our prayers\nAnd grant our petitions.\n"
-    },
-    {
-        "text": "Daily Prayer to the Sacred Heart\nSacred Heart of Jesus today I wish to live in You, in Your grace, in which I desire at all costs to persevere.\nKeep me from sin and strengthen my will by helping me to keep watch over my senses,\nMy imagination, and my heart.\nHelp me to correct my faults which are the source of sin.\nI beg You to do this, O Jesus, through Mary, Your Immaculate Mother. Amen.\n"
+        "text": "Daily Prayer to the Sacred Heart\nSacred Heart of Jesus, today I wish to live in You, in Your grace, in which I desire at all costs to persevere.\nKeep me from sin and strengthen my will by helping me to keep watch over my senses, my imagination, and my heart.\nHelp me to correct my faults which are the source of sin.\nI beg You to do this, O Jesus, through Mary, Your Immaculate Mother. \nAmen."
     },
     {
         "text": "St. Catherine of Siena (feast day April 29)\nO marvelous wonder of the Church, seraphic virgin, Saint Catherine, because of your extraordinary virtue and immense good which you accomplished for the Church and society, you are acclaimed and blessed by all people.\nBy the sheer force of your personality you converted thousands, and the mere sight of you melted the hearts of hardened sinners.\nO St. Catherine, inspire me to reach into they lives of others and influence them for good, so that your name will be ever blessed and exalted.\nI call upon you with all my affection and beg you to obtain by your prayers the favors I so ardently desire. Amen.\n"
@@ -223,6 +231,7 @@ function getRandomInt(min, max) {
 function changeText(){
   var index = getRandomInt(0, prayerList.length);
   var prayer = prayerList[index]["text"].split("\n");
+  $("#pray").text("");
   for (var i=0; i<prayer.length; i++){
     $("#pray").append("<p style='margin:5px; line-height: 160%;'>"+prayer[i]+"</p>");
     }
