@@ -188,7 +188,7 @@ function changeText(){
   var prayer = prayerList[index]["text"].split("\n");
   $("#pray").text("");
   for (var i=0; i<prayer.length; i++){
-    $("#pray").append("<p style='margin:5px; line-height: 170%;'>"+prayer[i]+"</p>");
+    $("#pray").append("<p style='margin:5px; line-height: 190%;'>"+prayer[i]+"</p>");
     }
   
   
