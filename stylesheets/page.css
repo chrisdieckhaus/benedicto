@@ -18,6 +18,12 @@ h1{
     font-family: Typo3;
 }
 
+h2{
+    text-align: center;
+    font-size: 22px;
+    font-family: Typo3;
+}
+
 div.button-div{
     text-align: center;
 }
