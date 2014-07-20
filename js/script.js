@@ -242,6 +242,7 @@ function getRandomInt(min, max) {
 
 function changeText(){
   var index = getRandomInt(0, prayerList.length);
+  
   $("#pray").text("");
   $("#title").text("");
   $("#title").text(prayerList[index]["title"]);
