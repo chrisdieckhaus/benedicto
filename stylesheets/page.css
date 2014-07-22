@@ -1,0 +1,65 @@
+@font-face{
+    font-family: Typo3;
+    src: url('../fonts/typo3/Typo3-Medium.ttf');
+}
+
+@font-face{
+    font-family: Renzo;
+    src: url('../fonts/renzo.otf');
+}
+
+body {
+    margin: 0;
+}
+
+h1{
+    text-align: center;
+    font-size: 34px;
+    font-family: Typo3;
+}
+
+h2{
+    text-align: center;
+    font-size: 22px;
+    font-family: Typo3;
+}
+
+div.button-div{
+    text-align: center;
+}
+
+div.outer{
+    border: solid #333333 1.5pt;
+    border-radius: 4px;
+    display: block;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.outer-hover{
+    background: #EBEBEB;
+}
+
+div.inner{
+    font-family: Typo3;
+    font-size: 20px;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    padding: 10px;
+    width: 300px;
+}
+
+div.text{
+    width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p.text{
+    font-size: 24px;
+    font-family: Renzo;
+    text-align: justify;
+    
+}
