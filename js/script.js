@@ -1,28 +1,37 @@
 
 $(document).ready(function(){
   
+    //call the changeText function, which is down below the prayerList
     changeText();
-    
+
+//The next two functions deal with the button changing color when moused over
+    //when the mouse enters the html element with the button-div id, 
     $("#button-div").on('mouseenter',function(){
+      //add the class outer-hover
       $(this).addClass("outer-hover");
     });
     
+    //when the mouse leaves
     $("#button-div").on('mouseleave',function(){
+      //remove the class outer-hover and go back to the original outer class
       $(this).removeClass("outer-hover");
       $(this).addClass("outer");
     });
     
+//When the button with class .outer is clicked on
     $(".outer").on('click',function(){
-        console.log("Click");
+        //slide up the content with id prayer
         $("#prayer").slideUp(500);
+	//Wait 499 milliseconds, then execute the changeText function
 	setTimeout(function(){changeText();}, 499);
+	//slide the id prayer content back down
 	$("#prayer").slideDown(500);
     });
     
     
     });
 
-
+//collection of prayers
 var prayerList = [
     {	"title": "Prayer to St. Jude, patron of hopeless causes",
         "text": "St. Jude, glorious apostle, faithful servant and friend of Jesus, \n the name of the traitor has caused you to be forgotten by many, \n but the true Church invokes you universally as the patron of things despaired of; \n pray for me, who am so downcast; \n pray for me, that finally I may receive the consolations and help of heaven in all my necessities, tribulations and sufferings, \n and that I may bless God with the elect throughout eternity. \n St. Jude Apostle, \n martyr, and relative of our Lord Jesus Christ, \n of Mary, and of Joseph, \n intercede for us. \n Amen."
@@ -236,20 +245,22 @@ var prayerList = [
     }
 ]
 
+//gets a random number
 function getRandomInt(min, max) {
 		return Math.floor(Math.random() * (max - min + 1)) + min;
 };
 
+//funciton for changing prayers
 function changeText(){
+  //get a random prayer
   var index = getRandomInt(0, prayerList.length);
-  
+  //change the text of the pray id and title id to ""
   $("#pray").text("");
   $("#title").text("");
+  //change the text of the title id to the prayer's title, and the pray id to the prayer's text
   $("#title").text(prayerList[index]["title"]);
   $("#pray").text(prayerList[index]["text"]);
-  //for (var i=0; i<prayer.length; i++){
-    //$("#pray").append("<p style=''>"+prayer[i]+"</p>");
-    //}
+
   
   
 };
