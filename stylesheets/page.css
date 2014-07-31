@@ -8,6 +8,10 @@
     src: url('../fonts/renzo.otf');
 }
 
+html{
+    overflow-y: scroll;
+}
+
 body {
     margin: 0;
 }
