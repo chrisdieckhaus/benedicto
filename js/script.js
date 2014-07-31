@@ -1,30 +1,20 @@
 
 $(document).ready(function(){
   
-    //call the changeText function, which is down below the prayerList
     changeText();
-
-//The next two functions deal with the button changing color when moused over
-    //when the mouse enters the html element with the button-div id, 
+ 
     $("#button-div").on('mouseenter',function(){
-      //add the class outer-hover
       $(this).addClass("outer-hover");
     });
     
-    //when the mouse leaves
     $("#button-div").on('mouseleave',function(){
-      //remove the class outer-hover and go back to the original outer class
       $(this).removeClass("outer-hover");
       $(this).addClass("outer");
     });
     
-//When the button with class .outer is clicked on
     $(".outer").on('click',function(){
-        //slide up the content with id prayer
         $("#prayer").slideUp(500);
-	//Wait 499 milliseconds, then execute the changeText function
 	setTimeout(function(){changeText();}, 499);
-	//slide the id prayer content back down
 	$("#prayer").slideDown(500);
     });
     
@@ -241,7 +231,7 @@ var prayerList = [
 	"text": "Eternal God,\nwho are the light of the minds that know You,\nthe joy of the hearts that love You,\nand the strength of the wills that serve You;\ngrant us so to know You that we may truly love You,\nand so to love You that we may fully serve You,\nwhom to serve is perfect freedom,\nin Jesus Christ our Lord.\nAmen."
     },
     {	"title": "Prayer to the Holy Spirit",
-	"text": "Spirit of wisdom and understanding, enlighten our minds to perceive the mysteries of the universe in relation to eternity. \nSpirit of right judgment and courage, guide us and make us firm in our baptismal decision to follow Jesus' way of love. \nSpirit of knowledge and reverence, help us to see the lasting value of justice and mercy in our everyday dealings with one another. \nMay we respect life as we work to solve problems of family and nation, economy and ecology. \nSpirit of God, spark our faith, hope and love into new action each day. \nFill our lives with wonder and awe in your presence which penetrates all creation. \nAmen."
+	"text": "Spirit of wisdom and understanding, \nenlighten our minds to perceive the mysteries of the universe in relation to eternity. \nSpirit of right judgment and courage, guide us and make us firm in our baptismal decision to follow Jesus' way of love. \nSpirit of knowledge and reverence, help us to see the lasting value of justice and mercy in our everyday dealings with one another. \nMay we respect life as we work to solve problems of family and nation, economy and ecology. \nSpirit of God, spark our faith, hope and love into new action each day. \nFill our lives with wonder and awe in your presence which penetrates all creation. \nAmen."
     }
 ]
 
@@ -252,14 +242,14 @@ function getRandomInt(min, max) {
 
 //funciton for changing prayers
 function changeText(){
-  //get a random prayer
   var index = getRandomInt(0, prayerList.length);
-  //change the text of the pray id and title id to ""
-  $("#pray").text("");
+  var prayer = prayerList[index]["text"].split("\n");
   $("#title").text("");
-  //change the text of the title id to the prayer's title, and the pray id to the prayer's text
+  $("#pray").text("");
   $("#title").text(prayerList[index]["title"]);
-  $("#pray").text(prayerList[index]["text"]);
+  for (var i=0; i<prayer.length; i++){
+    $("#pray").append("<p style='margin:5px; line-height: 170%;'>"+prayer[i]+"</p>");
+      }
 
   
   
