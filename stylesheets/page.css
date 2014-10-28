@@ -34,33 +34,10 @@ h2{
   color: #e5e5e5;
 }
 
-div.button-div{
-    text-align: center;
-}
-
-div.outer{
-    border: solid e5e5e5 1.5pt;
-    border-radius: 4px;
-    display: block;
-    width: 300px;
-    margin-left: auto;
-    margin-right: auto;
-    background: transparent;
-}
-
-div.outer-hover{
-    background: #aBaBaB;
-}
-
-div.inner{
-    font-family: Typo3;
-    font-size: 20px;
-    color: #e5e5e5;
-    display: table-cell;
-    text-align: center;
-    vertical-align: middle;
-    padding: 10px;
-    width: 300px;
+#button{
+  background: transparent;
+  color: #e5e5e5;
+  font-family: Typo3;
 }
 
 div.text{

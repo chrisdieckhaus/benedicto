@@ -3,19 +3,19 @@ $(document).ready(function(){
   
     changeText();
  
-    $("#button-div").on('mouseenter',function(){
+    $("#button").on('mouseenter',function(){
       $(this).addClass("outer-hover");
     });
     
-    $("#button-div").on('mouseleave',function(){
+    $("#button").on('mouseleave',function(){
       $(this).removeClass("outer-hover");
       $(this).addClass("outer");
     });
     
-    $(".outer").on('click',function(){
-        $("#prayer").slideUp(500);
-	setTimeout(function(){changeText();}, 499);
-	$("#prayer").slideDown(500);
+    $("#button").on('click',function(){
+          $("#prayer").slideUp(500);
+	       setTimeout(function(){changeText();}, 499);
+	       $("#prayer").slideDown(500);
     });
     
     
