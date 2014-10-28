@@ -24,12 +24,14 @@ h1{
     text-align: center;
     font-size: 34px;
     font-family: Typo3;
+  color: #e5e5e5;
 }
 
 h2{
     text-align: center;
     font-size: 22px;
     font-family: Typo3;
+  color: #e5e5e5;
 }
 
 div.button-div{
@@ -37,7 +39,7 @@ div.button-div{
 }
 
 div.outer{
-    border: solid #f5f5f5 1.5pt;
+    border: solid e5e5e5 1.5pt;
     border-radius: 4px;
     display: block;
     width: 300px;
@@ -52,6 +54,7 @@ div.outer-hover{
 div.inner{
     font-family: Typo3;
     font-size: 20px;
+    color: #e5e5e5;
     display: table-cell;
     text-align: center;
     vertical-align: middle;
@@ -69,6 +72,6 @@ p.text{
     font-size: 24px;
     font-family: Renzo;
     text-align: justify;
-    color: #f5f5f5;
+    color: #e5e5e5;
     
 }
