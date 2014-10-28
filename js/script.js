@@ -247,10 +247,11 @@ function changeText(){
   $("#title").text("");
   $("#pray").text("");
   $("#title").text(prayerList[index]["title"]);
+  
   for (var i=0; i<prayer.length; i++){
-    $("#pray").append("<p style='margin:5px; line-height: 170%;'>"+prayer[i]+"</p>");
+    $("#pray").append("<p style='margin:0; line-height: 180%; font-family: Renzo;'>"+prayer[i]+"</p>");
       }
-
+      
   
   
 };

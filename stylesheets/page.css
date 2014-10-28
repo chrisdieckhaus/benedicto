@@ -18,20 +18,31 @@ body {
     background-repeat: repeat-y repeat-x;
 }
 
+.row{
+  margin-top: 30px;
+}
 
+#left{
+  margin-top: 100px;
+}
+
+#right{
+  margin-top: 50px;
+}
 
 h1{
-    text-align: center;
-    font-size: 34px;
-    font-family: Typo3;
+  text-align: center;
+  font-size: 34px;
+  font-family: Typo3;
   color: #e5e5e5;
 }
 
 h2{
-    text-align: center;
-    font-size: 22px;
-    font-family: Typo3;
+  text-align: center;
+  font-size: 22px;
+  font-family: Typo3;
   color: #e5e5e5;
+  padding-bottom: 20px;
 }
 
 #button{
@@ -45,8 +56,12 @@ h2{
   border: solid #e5e5e5 1pt;
 }
 
+a#button:hover{
+  box-shadow: 1px 1px 5px 0px rgba(50, 50, 50, 0.99);
+}
+
 div.text{
-    width: 550px;
+    max-width: 400px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -54,7 +69,33 @@ div.text{
 p.text{
     font-size: 24px;
     font-family: Renzo;
-    text-align: justify;
+    text-align: center;
     color: #e5e5e5;
-    
+}
+
+.footer{
+  position: fixed;
+  bottom: 0;
+}
+
+.foot {
+}
+
+p.footer, p.foot {
+  width: 100%;
+  text-align: center;
+  color: #aaaaaa;
+  font-family: Renzo;
+  font-size: 14px;
+}
+
+.footer a, .foot a{
+  text-decoration: none;
+  color: #aaaaaa;
+}
+
+.footer a:hover, .foot a:hover{
+  text-decoration: none;
+  color: #aaaaaa;
+  border-bottom: solid #aaaaaa 1pt;
 }
