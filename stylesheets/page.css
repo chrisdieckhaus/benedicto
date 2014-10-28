@@ -41,6 +41,7 @@ h2{
   margin-right: auto;
   margin-left: auto;
   display: block;
+  max-width: 250px;
   border: solid #e5e5e5 1pt;
 }
 
