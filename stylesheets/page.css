@@ -38,7 +38,9 @@ h2{
   background: transparent;
   color: #e5e5e5;
   font-family: Typo3;
-  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
   border: solid #e5e5e5 1pt;
 }
 
